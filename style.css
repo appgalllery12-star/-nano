@@ -1,0 +1,70 @@
+body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif; 
+ }
+        .header {
+            background-color: #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;
+            padding-left: 10px;
+        }
+        .logo {
+            width: 100px;
+        }
+        .header-links a {
+            color: rgb(0, 0, 0);
+            padding:7px 20px ;
+            text-decoration: none;
+        }
+        .header-liks a {
+            color: white;
+        }
+        .header-links button:hover {
+            background-color: #9f9f9f;
+            border-radius: 20px;
+        }
+        .header-links button {
+            background-color: #ffffff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            color: rgb(0, 0, 0);
+            border: none;
+
+        }
+        .header-links a:hover {
+            background-color: #252525;
+            border-radius: 15px;
+        }
+        .landing-page {
+            background-color: #000000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:10px 40px;
+            border-radius: 0 0 20px 20px;
+        }
+        .landing-page-image-container img {
+            border-radius: 50px;
+            width: 400px;
+        }
+        .trending-container {
+            padding: 10px 40px;
+        }
+        .card {
+            width: 180px;
+            background-color: #eeeeee;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .card .thumb {
+            border-radius: 20px 20px 20px 20px;
+        }
+        .card-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            }
+
